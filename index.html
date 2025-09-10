@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Your Name</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: #38bdf8;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #f1f5f9;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #38bdf8;
+      text-align: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      margin: 0 15px;
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.05);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mahaswetha B</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am Mahaswetha B.An energetic and diligent student currently pursuing final year B.TECH (Artificial Intelligence and Machine Learning) in Bannari Amman Institute of Technology with a mediocre background in Photoshop. Skilled about web design and has experience working on projects involving programming languages like Python, Java and C. Participating in coding contests and events such as TCS Codevita has demonstrated the individual's strong problem-solving, critical thinking, and teamwork skills. Passionate about applying technical skills in a fast-paced workplace while learning new things and helping to develop creative solutions.
+      </p>
+    </div>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">C (BASICS)</div>
+      <div class="card">POWER BI (BASICS)</div>
+      <div class="card">Python (BASICS)</div>
+      <div class="card">Java (BASICS)</div>
+      <div class="card">SQL & Databases</div>
+      <div class="card">Machine Learning</div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Machine Learning For Signal Processing in Wireless Communication</h3>
+        <p>Developed a machine learning model to enhance signal processing in wireless communication systems. Focused on improving signal detection, noise reduction, and channel estimation using algorithms like SVM and neural networks, resulting in optimized performance and increased data transmission efficiency.</p>
+      </div>
+      <div class="card">
+        <h3>Handwritten Digit Recognition using Neural Networks</h3>
+        <p>Built a Handwritten Digit Recognition system using neural networks, specifically leveraging the MNIST dataset. Implemented deep learning techniques like convolutional neural networks (CNNs) to achieve high accuracy in classifying digits, enhancing automated data entry and digitization processes.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <p>Let's connect:</p>
+      <a href="mahaswetha500@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/mahaswetha-b-994607296/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/mahaswetha123" target="_blank">GitHub</a>
+    </div>
+  </section>
+  <footer>
+    <p>© 2025 Mahaswetha B | Designed with ♥</p>
+  </footer>
+</body>
+</html>
